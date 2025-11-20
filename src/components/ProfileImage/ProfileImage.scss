@@ -1,0 +1,14 @@
+.profile-avatar {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 42rem;
+  width: auto;
+  z-index: 10;
+  pointer-events: none; // keep floating effect clean
+
+  @media screen and (max-width : 1200px) {
+    display: none;
+  }
+}

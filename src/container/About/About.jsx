@@ -1,49 +1,29 @@
-import React, {useState, useEffect} from 'react'
-import { motion } from 'framer-motion'
-
+import React from 'react'
 import './About.scss'
-
-import {urlFor, client} from '../../client'
-import { AppWrap } from '../../wrapper'
-import { MotionWrap } from '../../wrapper'
+import { AppWrap, MotionWrap } from '../../wrapper'
 
 const About = () => {
-
-  const [abouts, setAbouts] = useState([])
-
-  useEffect(() => {
-    const query = '*[_type == "abouts"]';
-
-    client.fetch(query)
-    .then((data) => setAbouts(data));
-  }, [])
-  
-
   return (
-    <>
-      <h2 className='head-text'>Let us <span> Code <br /></span> a new<span> History</span></h2>
-
-      <div className='app__profiles'>
-        {abouts.map((about,index) => (
-          <motion.div
-            whileInView={{opacity : 1}}
-            whileHover={{scale : 1.1}}
-            transition={{ duration : 0.5, type : 'tween'}}
-            className='app__profiles-item'
-            key={about.title + index}
-          >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className='bold-text' style={{marginTop : 20}}>
-              {about.title}
-            </h2>
-            <p className='p-text' style={{marginTop : 10}}>
-              {about.description}
-            </p>
-          </motion.div>
-        ))}
+    <div className='app__about app__flex'>
+      <div className='app__about-left'>
+        {/* Avatar will stick here */}
       </div>
-    </>
+      <div className='app__about-right'>
+        <h2 className='head-text'>
+            About Me
+        </h2>
+        <p className='p-text about-text'>
+          I began my journey with <span>Java</span>  and <span>OOPs</span> , and eventually found a deep passion for Full-Stack Web Development using the <span>MERN stack</span>. Over the years, I’ve built projects that strengthened my skills in Frontend Design, Backend Architecture, and writing clean, efficient, and secure code. <br /> <br />
+          Coming from a 4-year background as an <span>Accounts Executive</span>, I bring discipline, patience, and analytical thinking into every problem I solve. I enjoy breaking down complex challenges, understanding root causes, and crafting solutions that are both functional and elegant. <br /> <br />
+          I'm dedicated to continuous learning and improving myself with every project I build. <span>I love coding</span>, exploring new technologies, and creating meaningful digital experiences — and I’m excited to bring this energy into a <span>organisation</span> that’s willing to give me a chance to prove myself and grow with the team.
+        </p>
+        <div className='app__about-right-btn'>
+          <a href="#contact">contact</a>
+        </div>
+      </div>
+    </div>
   )
 }
 
-export default AppWrap(MotionWrap(About, 'app__about'), 'about', 'app__whitebg')
+export default AppWrap(MotionWrap(About, 'about'), 'about', 'app__whitebg')
+// export default AppWrap(MotionWrap(Skills, 'app__skills'), 'skills', 'app__whitebg')
