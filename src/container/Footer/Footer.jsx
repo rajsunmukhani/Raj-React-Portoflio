@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {images} from '../../constants'
 import {AppWrap, MotionWrap} from '../../wrapper'
 import { client } from '../../client';
+import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 import './Footer.scss'
 const Footer = () => {
@@ -45,6 +46,10 @@ const Footer = () => {
         <div className='app__footer-card'>
           <img src={images.mobile} alt="mobile" />
           <a href="tel: +91 72230 68964" className='p-text'>+91 XXXXX XX964</a>
+        </div>
+        <div className='app__social-mobile-view'>
+          <a href='https://in.linkedin.com/in/raj-sunmukhani-554b58210'><BsLinkedin /></a>
+          <a href='https://github.com/rajsunmukhani'><BsGithub /></a>
         </div>
      </div>
 
