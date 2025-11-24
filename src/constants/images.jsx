@@ -23,7 +23,7 @@ import logo from '../assets/logo.png';
 import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 
-export default {
+const images = {
   email,
   mobile,
   css,
@@ -46,3 +46,5 @@ export default {
   bolt,
   nb,
 };
+
+export default images;
