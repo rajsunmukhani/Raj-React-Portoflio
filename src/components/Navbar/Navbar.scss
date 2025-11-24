@@ -151,3 +151,29 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 380px) {
+
+  .app__navbar {
+    padding: 0.5rem 1rem;   
+  }
+
+  .app__navbar-logo img {
+    width: 60px !important;
+    height: 40px !important;  
+  }
+
+  .app__navbar-menu {
+    width: 30px;
+    height: 30px;             
+  }
+
+  .app__navbar-menu div {
+    width: 90%;               
+    padding: 0.5rem;
+  }
+
+  .app__navbar-menu div ul li a {
+    font-size: 0.9rem;        
+  }
+}

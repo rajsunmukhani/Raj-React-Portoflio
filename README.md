@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+## 🌐 Raj Sunmukhani – MERN Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official repository of my Personal Portfolio Website, built to showcase my work as a MERN Stack Developer, Java Programmer, and now expanding into Vue + TypeScript and AI-powered development.
 
-## Available Scripts
+This portfolio highlights my projects, skills, experience, and passion for building secure, scalable applications—with a strong focus on clean UI/UX and performance.
 
-In the project directory, you can run:
+# 🚀 Live Portfolio
 
-### `npm start`
+*🔗 Live Website: https://rajsunmukhani-portfolio.netlify.app/*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+(Update this link if you redeploy)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📌 Features
 
-### `npm test`
+⚡ Fully responsive UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎨 Modern animations & transitions using CSS and JS libraries
 
-### `npm run build`
+🧩 Modular component-based structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Projects section with filters and Swiper-based carousel
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+💬 Contact section with email integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📄 Clean and maintainable folder structure
 
-### `npm run eject`
+🌑 Dark/Light mode (if added later)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🛠️ Tech Stack
+Category	Technologies
+Frontend	React.js, JavaScript, HTML5, CSS3
+Styling	    SCSS, GSAP animations, Swiper
+Deployment	Netlify
+Tools	    VS Code, Git, GitHub
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 📁 Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Portfolio/
+│── public/
+│   ├── favicon.ico
+│   └── index.html
+│
+│── src/
+│   ├── components/
+│   ├── container/
+│   ├── constants/
+│   ├── images/
+│   ├── styles/
+│   ├── App.js
+│   └── index.js
+│
+└── package.json
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧑‍💻 Running Locally
 
-## Learn More
+Clone the project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/rajsunmukhani/Raj-React-Portoflio.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Go into the project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd Raj-React-Portoflio
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Start development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📬 Contact
 
-### `npm run build` fails to minify
+Feel free to reach out for collaborations or opportunities!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📧 Email: rajsunmukhani123@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/raj-sunmukhani-554b58210
+
+🐙 GitHub: https://github.com/rajsunmukhani
+
+⭐ Show Your Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
+It motivates me to build more awesome projects!
